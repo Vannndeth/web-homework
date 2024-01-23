@@ -26,7 +26,6 @@
             list-style-type: none;
             margin: 0;
             padding: 0;
-            overflow: hidden;
             background-color: #5e0e89;
             height: 50px;
         }
@@ -57,19 +56,30 @@
             position: relative;
             top: 6px;
         }
+        .logo{
+            box-sizing: border-box;
+            width: 50px;
+            padding: 10px;
+            position: absolute;
+            background-color: #5e0e89;
+            border-radius: 50%;
+        }
 
 </style>
     </style>
 </head>
 <body>
     <header>
-        <!-- Navigation bar -->
-        <ul>
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="./Pages/service.html" target="_self">Service</a></li>
-            <li><a href="#address">Address</a></li>
-            <li><a href="./Pages/about.html" target="_blank">About Us</a></li>
-        </ul>
+         <!-- Navigation bar -->
+        <nav>
+            <img class="logo" src="./images/logo.jpg" alt="">
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="./Pages/service.html" target="_self">Service</a></li>
+                <li><a href="#address">Address</a></li>
+                <li><a href="./Pages/about.html" target="_blank">About Us</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
